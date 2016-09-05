@@ -208,6 +208,8 @@
     <string name="creating_event_with_guest">"Invitations will be sent."</string>
     <!-- Toast message displayed when an existing event with guests is saved after being modified -->
     <string name="saving_event_with_guest">"Updates will be sent."</string>
+    <!-- Toast message displayed when ics file to share an event can't be generated -->
+    <string name="error_generating_ics">"Problems encountered while sharing event"</string>
 
     <!-- Toast message displayed responding to an event from an email as accepted
      [CHAR LIMIT=50] -->
@@ -389,6 +391,7 @@
     <!-- This is a menu button for switching into edit mode when viewing an event.
         [CHAR LIMIT=10] -->
     <string name="edit_label">"Edit"</string>
+    <string name="share_label">"Share"</string>
     <!-- The button label for deleting an event -->
     <string name="delete_label">"Delete"</string>
     <!-- A menu item for deleting an event -->
@@ -750,4 +753,21 @@
 
     <!-- Do Not Translate.  Sender identity for global notification synchronization. -->
     <string name="notification_sender_id"></string>
+
+    <!-- Delete Events related -->
+    <string name="events_delete">Delete events</string>
+    <string name="action_select_all">Select all</string>
+    <string name="action_select_none">Deselect all</string>
+    <string name="action_delete">Done</string>
+    <string name="all_events">All events</string>
+    <string name="no_events">No events available</string>
+    <string name="selected">selected</string>
+    <string name="evt_del_dlg_title">Delete Events?</string>
+    <string name="evt_del_dlg_msg_selected">Selected events will be deleted</string>
+    <string name="evt_del_dlg_msg_all">All events will be deleted</string>
+    <string name="no_events_selected">No events selected</string>
+
+    <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to go to the calendars to display [CHAR LIMIT=20] -->
+    <string name="go_to">Go to</string>
 </resources>
